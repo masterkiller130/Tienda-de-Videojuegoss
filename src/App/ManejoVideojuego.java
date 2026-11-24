@@ -115,72 +115,83 @@ public class ManejoVideojuego extends javax.swing.JFrame {
 //Lista de Titulos en base a la empresa desarrolladora
         switch (empresa) {
             case "EA":
-                cmbTitulo.addItem("EA Sports FC 26");
-                cmbTitulo.addItem("EA Sports FC 25");
-                cmbTitulo.addItem("EA Sports FC 24");
-                cmbTitulo.addItem("EA Sports FC 23");
-                cmbTitulo.addItem("EA Sports FC 22");
-                cmbTitulo.addItem("EA Sports FC 21");
-                cmbTitulo.addItem("EA Sports FC 20");
-                cmbTitulo.addItem("EA Sports FC 19");
-                cmbTitulo.addItem("EA Sports FC 18");
-                cmbTitulo.addItem("EA Sports FC 17");
-                cmbTitulo.addItem("EA Sports FC 16");
-                cmbTitulo.addItem("EA Sports FC 15");
-                cmbTitulo.addItem("EA Sports FC 14");
-                cmbTitulo.addItem("The Sims 4");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("EA Sports FC 26");
+                cmbTituloAct.addItem("EA Sports FC 25");
+                cmbTituloAct.addItem("EA Sports FC 24");
+                cmbTituloAct.addItem("EA Sports FC 23");
+                cmbTituloAct.addItem("EA Sports FC 22");
+                cmbTituloAct.addItem("EA Sports FC 21");
+                cmbTituloAct.addItem("EA Sports FC 20");
+                cmbTituloAct.addItem("EA Sports FC 19");
+                cmbTituloAct.addItem("EA Sports FC 18");
+                cmbTituloAct.addItem("EA Sports FC 17");
+                cmbTituloAct.addItem("EA Sports FC 16");
+                cmbTituloAct.addItem("EA Sports FC 15");
+                cmbTituloAct.addItem("EA Sports FC 14");
+                cmbTituloAct.addItem("The Sims 4");
                 break;
             case "Rockstar":
-                cmbTitulo.addItem("Grand Theft Auto VI");
-                cmbTitulo.addItem("Grand Theft Auto V");
-                cmbTitulo.addItem("Grand Theft Auto IV");
-                cmbTitulo.addItem("Grand Theft Auto San Andreas");
-                cmbTitulo.addItem("Red Dead Redemption 2");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("Grand Theft Auto VI");
+                cmbTituloAct.addItem("Grand Theft Auto V");
+                cmbTituloAct.addItem("Grand Theft Auto IV");
+                cmbTituloAct.addItem("Grand Theft Auto San Andreas");
+                cmbTituloAct.addItem("Red Dead Redemption 2");
                 break;
             case "Ubisoft":
-                cmbTitulo.addItem("Assassin's Creed Valhalla");
-                cmbTitulo.addItem("Far Cry 6");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("Assassin's Creed Valhalla");
+                cmbTituloAct.addItem("Far Cry 6");
                 break;
             case "Sony":
-                cmbTitulo.addItem("God of War Ragnarok");
-                cmbTitulo.addItem("Concord");
-                cmbTitulo.addItem("Wolverine");
-                cmbTitulo.addItem("Spider-Man 2");
-                cmbTitulo.addItem("Spider-Man ");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("God of War Ragnarok");
+                cmbTituloAct.addItem("Concord");
+                cmbTituloAct.addItem("Wolverine");
+                cmbTituloAct.addItem("Spider-Man 2");
+                cmbTituloAct.addItem("Spider-Man ");
                 break;
             case "Team Cherry":
-                cmbTitulo.addItem("Hollow Knight");
-                cmbTitulo.addItem("Hollow Knight: Silksong");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("Hollow Knight");
+                cmbTituloAct.addItem("Hollow Knight: Silksong");
                 break;
             case "Naughty Dog":
-                cmbTitulo.addItem("The Last of Us Part I");
-                cmbTitulo.addItem("The Last of Us Part II");
-                cmbTitulo.addItem("Uncharted 4");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("The Last of Us Part I");
+                cmbTituloAct.addItem("The Last of Us Part II");
+                cmbTituloAct.addItem("Uncharted 4");
                 break;
             case "Valve":
-                cmbTitulo.addItem("Half-Life ");
-                cmbTitulo.addItem("Half-Life 2");
-                cmbTitulo.addItem("Dota 2");
-                cmbTitulo.addItem("Portal 2");
-                cmbTitulo.addItem("Counter Strike");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("Half-Life ");
+                cmbTituloAct.addItem("Half-Life 2");
+                cmbTituloAct.addItem("Dota 2");
+                cmbTituloAct.addItem("Portal 2");
+                cmbTituloAct.addItem("Counter Strike");
                 break;
             case "Riot Games":
-                cmbTitulo.addItem("Valorant Points Pack");
-                cmbTitulo.addItem("LOL");
-                cmbTitulo.addItem("Ruined King");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("Valorant Points Pack");
+                cmbTituloAct.addItem("LOL");
+                cmbTituloAct.addItem("Ruined King");
                 break;
             case "Blizzard":
-                cmbTitulo.addItem("Diablo IV");
-                cmbTitulo.addItem("Overwatch 2 Pack");
-                cmbTitulo.addItem("WOW");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("Diablo IV");
+                cmbTituloAct.addItem("Overwatch 2 Pack");
+                cmbTituloAct.addItem("WOW");
                 break;
             case "Bethesda":
-                cmbTitulo.addItem("The Elder Scrolls V: Skyrim");
-                cmbTitulo.addItem("Starfield");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("The Elder Scrolls V: Skyrim");
+                cmbTituloAct.addItem("Starfield");
                 break;
             case "Nintendo":
-                cmbTitulo.addItem("The Legend of Zelda: Tears of the Kingdom");
-                cmbTitulo.addItem("Super Mario Odyssey");
+                cmbTituloAct.addItem("Seleccione un videojuego");
+                cmbTituloAct.addItem("The Legend of Zelda: Tears of the Kingdom");
+                cmbTituloAct.addItem("Super Mario Odyssey");
                 break;
         }
     }
